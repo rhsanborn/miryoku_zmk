@@ -9,6 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
+      alphas: '["QWERTY"]'
       shield: '["corne_left","corne_right"]'
       nav: '["vi"]'
 
