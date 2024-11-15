@@ -24,6 +24,8 @@
 #define U_NU &none // available but not used
 
 #define U_TAPPING_TERM 200
+#define CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=0
+#define CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=9
 
 #include "miryoku_clipboard.h"
 
