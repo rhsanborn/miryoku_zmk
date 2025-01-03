@@ -1,0 +1,18 @@
+/*
+ * Copyright (c) 2020 Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "rhs-skeletyl.dtsi"
+
+&kscan0 {
+	col-gpios
+		= <&pro_micro 19 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 15 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 16 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 10 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 7 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 9 GPIO_ACTIVE_HIGH>
+		;
+};
