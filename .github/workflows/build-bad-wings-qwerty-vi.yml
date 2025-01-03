@@ -1,0 +1,15 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build Bad Wings QWERTY VI'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_rp2040"]'
+      alphas: '["QWERTY"]'
+      shield: '["bad_wings"]'
+      nav: '["vi"]'
+
