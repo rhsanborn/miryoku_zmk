@@ -10,6 +10,6 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       alphas: '["QWERTY"]'
-      shield: '["rhs-skeletyl"]'
+      shield: '["rhs-skeletyl_left","rhs-skeletyl_right"]'
       nav: '["vi"]'
 
