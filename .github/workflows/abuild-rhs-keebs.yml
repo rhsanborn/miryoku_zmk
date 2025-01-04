@@ -4,7 +4,7 @@
 name: 'aBuild RHS Keebs QWERTY VI'
 on: workflow_dispatch
 jobs:
-  build:
+  build_nanos:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
@@ -12,7 +12,7 @@ jobs:
       alphas: '["QWERTY"]'
       shield: '["rhs-skeletyl_left","rhs-skeletyl_right","corne_left","corne_right"]'
       nav: '["vi"]'
-  build:
+  build_xiaos:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
