@@ -1,0 +1,22 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'aBuild RHS Keebs QWERTY VI'
+on: workflow_dispatch
+jobs:
+  build_nanos:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      alphas: '["COLEMAKDH"]'
+      shield: '["rhs-skeletyl_left","rhs-skeletyl_right","corne_left","corne_right"]'
+      nav: '["vi"]'
+  build_xiaos:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_rp2040"]'
+      alphas: '["COLEMAKDH"]'
+      shield: '["bad_wings"]'
+      nav: '["vi"]'
