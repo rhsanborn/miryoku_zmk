@@ -19,12 +19,11 @@
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             &kp N,             &kp E,             &kp I,             &kp O,             \
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,       &mt LC(LS(LA(LGUI))) BSPC,&u_to_U_BASE,    U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,        U_LT(U_EXTRA, SPACE), &kp TAB,           &kp RET,       &mt LC(LS(LA(LGUI))) BSPC,&u_to_U_BASE,   U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
-&kp ESC,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
-&kp LSHFT,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
-&kp LCTRL,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
+&kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp GRAVE,         &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
+&kp NUM_6,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp 0,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
+&kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp NUM_5,         &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
 U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
-// Need a super key to get out of moonlight
