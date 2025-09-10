@@ -40,7 +40,7 @@ MIRYOKU_X(GAMENUM,"GameNum") \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             &kp N,             &kp E,             &kp I,             &kp O,             \
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           U_LT(U_GAMENUM, SPACE), &kp TAB,           &kp RET,       &mt LC(LS(LA(LGUI))) BSPC,&u_to_U_BASE,   U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,    U_LT(U_GAMENUM, SPACE), &kp RET,       &mt LC(LS(LA(LGUI))) BSPC,&u_to_U_BASE,   U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GAMENUM \
 &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp GRAVE,         &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
