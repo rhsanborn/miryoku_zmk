@@ -46,4 +46,4 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,      U_LT(U_
 &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp GRAVE,         &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
 &kp NUM_6,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp NUM_0,         &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
 &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp NUM_5,         &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
-U_NP,              U_NP,              &kp ESC,           &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPC,           U_NP,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
