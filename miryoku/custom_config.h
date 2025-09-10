@@ -27,3 +27,14 @@ U_NP,              U_NP,              &kp ESC,        U_LT(U_EXTRA, SPACE), &kp 
 &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp NUM_5,         &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
 U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
+
+#define U_BASE   0
+#define U_TAP    1
+#define U_EXTRA  2
+#define U_BUTTON 3
+#define U_NAV    4
+#define U_MOUSE  5
+#define U_MEDIA  6
+#define U_NUM    7
+#define U_SYM    8
+#define U_FUN    9
