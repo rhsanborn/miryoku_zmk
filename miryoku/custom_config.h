@@ -8,17 +8,6 @@
 
 #define XXX &none
 
-#define U_BASE   0
-#define U_TAP    1
-#define U_EXTRA  2
-#define U_BUTTON 3
-#define U_NAV    4
-#define U_MOUSE  5
-#define U_MEDIA  6
-#define U_NUM    7
-#define U_SYM    8
-#define U_FUN    9
-
 // FPS friendly tap layer
 //#define miryoku_layer_game \
 //&kp tab,           &kp q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
